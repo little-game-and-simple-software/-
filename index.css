@@ -1,0 +1,89 @@
+#news_bar
+{
+  background-color:black;
+  border-style: solid;
+  border-width: 1px;
+  border-color: gray;
+}
+#news_bar a
+{
+  color: gray;
+}
+.news_bar_item:hover
+{
+  background-color: #2bf;
+}
+#news_banner
+{
+
+}
+/* 新闻列表 ul*/
+#news_list
+{
+  list-style: none;
+  background-color: gray;
+}
+#news_list li
+{
+  border-width: 1px;
+  border-style: solid;
+  display:inline-block;
+}
+#news_list li a
+{
+  text-decoration: none;
+}
+button
+{
+  display: block;
+
+}
+#download_appstore
+{
+  background-color: gray;
+  color:white;
+}
+ul
+{
+  list-style: none;
+}
+#download_android
+{
+  background-color: green;
+  color:white;
+}
+#download_taptap
+{
+  background-color:#2bf;
+  color:white;
+}
+/* 更多情报 */
+#news_more
+{
+  text-decoration: none;
+  border-color: #2bf;
+  border-width: 3px;
+  border-style: solid;
+  color: white;
+  background-color: gray;
+}
+#news_more:hover
+{
+  background-color: blue;
+}
+/* 游戏阵营 */
+#game_group
+{
+  background-color: black;
+  padding: 10px;
+}
+#game_group li
+{
+  background-color: gray;
+  display: inline-block;
+  height: 100px;
+}
+#game_group li:hover
+{
+  background-color: white;
+}

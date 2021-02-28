@@ -66,6 +66,8 @@ ul
   border-style: solid;
   color: white;
   background-color: gray;
+  position:absolute;
+  right:0;
 }
 #news_more:hover
 {

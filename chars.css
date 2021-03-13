@@ -1,0 +1,25 @@
+#group:hover
+{
+  transform: rotateY(180deg);
+  transition: transform 1s;
+}
+ul
+{
+  list-style: none;
+  /* background-image: url('img/ark.png') */
+}
+ul li
+{
+  display: inline-block;
+  width: 100px;
+  height:200px;
+  border:3px;
+  border-style: solid;
+  background-image: url('img/ark.png') ;
+  background-repeat: no-repeat;
+  background-size: 100px 100px;
+}
+ ul li:hover
+ {
+     back
+ }

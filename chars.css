@@ -8,18 +8,49 @@ ul
   list-style: none;
   /* background-image: url('img/ark.png') */
 }
-ul li
+ul img
 {
-  display: inline-block;
-  width: 100px;
-  height:200px;
+  /* display: inline-block; */
+  /* width: 100px; */
+  /* height:200px; */
   border:3px;
   border-style: solid;
-  background-image: url('img/ark.png') ;
-  background-repeat: no-repeat;
-  background-size: 100px 100px;
+  position: absolute;
+  background-color: gray;
 }
- ul li:hover
- {
-     back
- }
+ /* 角色描述 */
+#info
+{
+    background-color: black;
+    visibility:hidden;
+    width:500px;
+    position: absolute;
+    top:300px;
+}
+#info h3,h4
+{
+    color: white;
+}
+#info #detail
+{
+    font-size: 15px;
+    color: gray;
+}
+ #lava
+{
+    position: absolute;
+    left: 100px;
+    /* background-image: url('img/lava.png');
+    background-repeat: no-repeat;
+    background-size: 100px 100px; */
+}
+#fire
+{
+    left:0px;
+}
+#close
+{
+    font-size: 50px;
+    color: gray;
+    /* position: absolute; */
+}

@@ -1,55 +1,76 @@
-#group:hover
+/* 背景logo */
+*
 {
-  transform: rotateY(180deg);
-  transition: transform 1s;
+    border-style: solid;
+    border-width: 1px;
 }
-ul
+#group
 {
-  list-style: none;
-  /* background-image: url('img/ark.png') */
+    width: 310px;
+    height: 310px;
 }
-ul img
+#group:hover #a
 {
-  /* display: inline-block; */
-  /* width: 100px; */
-  /* height:200px; */
-  border:3px;
-  border-style: solid;
-  position: absolute;
-  background-color: gray;
+    transform: rotateY(180deg);
 }
- /* 角色描述 */
-#info
+#group:hover #b
 {
-    background-color: black;
-    visibility:hidden;
-    width:500px;
+    transform: rotateY(0deg);
+}
+#group img {
+    width: 250px;
+    position:absolute;
+    transition: transform 2s;
+    backface-visibility: hidden;
+}
+#b
+{
+    transform: rotateY(-180deg);
+}
+ul {
+    list-style: none;
+}
+ul img {
+    /* display: inline-block; */
+    /* width: 100px; */
+    /* height:200px; */
+    border: 3px;
+    border-style: solid;
     position: absolute;
-    top:300px;
+    background-color: gray;
 }
-#info h3,h4
-{
+
+/* 角色描述 */
+#info {
+    background-color: black;
+    visibility: hidden;
+    width: 500px;
+    position: absolute;
+    top: 300px;
+}
+
+#info h3, h4 {
     color: white;
 }
-#info #detail
-{
+
+#info #detail {
     font-size: 15px;
     color: gray;
 }
- #lava
-{
+
+#lava {
     position: absolute;
     left: 100px;
     /* background-image: url('img/lava.png');
     background-repeat: no-repeat;
     background-size: 100px 100px; */
 }
-#fire
-{
-    left:0px;
+
+#fire {
+    left: 0px;
 }
-#close
-{
+
+#close {
     font-size: 50px;
     color: gray;
     /* position: absolute; */

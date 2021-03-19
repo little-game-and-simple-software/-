@@ -1,5 +1,6 @@
 $(function()
-{
+{   $(".characters").hide()
+    // alert("测试")
     $("#info").slideUp()
     function char_slide(id)
     {
@@ -46,5 +47,37 @@ $(function()
         })
         $("#info").slideUp()
     })
+    //游戏阵营选择动画 切开
+    $("#game_group li").click(function()
+    {
+        // alert("测试")
+    // NOTE: even 偶数向下，奇数向上
+    $("#game_group li:even").animate
+    ({
+        top:"200px",
+    },function()
+    {
+    $("#game_group li").hide()
+    $(".characters").show()
+    })
+    $("#game_group li:odd").animate
+    ({
+        top:"-200px",
+    })
 
+    //返回阵营选择
+    $("#group").click(function()
+    {
+        $("#game_group li").show()
+        $(".characters").hide()
+        $("#game_group li:even").animate
+        ({
+            top:"0px",
+        })
+        $("#game_group li:odd").animate
+        ({
+            top:"0px",
+        })
+    })
+    })
 })

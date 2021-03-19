@@ -6,8 +6,8 @@
 }
 #group
 {
-    width: 310px;
-    height: 310px;
+    width: 260px;
+    height: 260px;
 }
 #group:hover #a
 {
@@ -20,7 +20,7 @@
 #group img {
     width: 250px;
     position:absolute;
-    transition: transform 2s;
+    transition: transform 0.5s;
     backface-visibility: hidden;
 }
 #b
@@ -74,4 +74,19 @@ ul img {
     font-size: 50px;
     color: gray;
     /* position: absolute; */
+}
+/* 阵营 */
+#game_group li
+{
+    display: inline-block;
+    height: 50px;
+    padding: 50px;
+    background-color:gray;
+    font-style: oblique;
+    position: relative;
+    color:white;
+}
+#game_group li:hover
+{
+    background-color: rgba(0, 0, 0, 0.8);
 }

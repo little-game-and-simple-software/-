@@ -5,6 +5,7 @@
     <title>明日方舟</title>
     <link rel="stylesheet" href="index.css">
     <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="index.js"></script>
   </head>
   <body>
     <h2>明日方舟</h2>
@@ -16,10 +17,12 @@
     <a href="reg.html">注册</a>
     <a href="connect_kehu.html">联系客服</a>
     </div>
+
     <!-- 自动播放的canvas -->
     <!-- <canvas id="canvas" width="300" height="300"></canvas> -->
     <!-- <img src="img/ark1.jpeg"  width="500px" alt="明日方舟背景图"> -->
-    <video src="pv.mp4" autoplay poster="img/ark1.jpeg" controls>
+    <button id="pv">更改到pv  </button><button id="pv2">更改到pv2  </button>
+    <video id="video" src="pv/pv.mp4"  poster="img/ark1.jpeg" controls>
     </video>
     <!-- <canvas id="canvas" width="300" height="300"></canvas> -->
     <img src="" alt="二维码">
